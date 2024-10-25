@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .options {
+    display: flex;
+    gap: 40px; /* Space between the options */
+  }
+  
+  .option {
+    text-align: center; /* Center text below images */
+  }
+  
+  .option-image {
+    border-radius: 10px; /* Optional: Add some styling */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better look */
+  }
+  
+  .tooltip-content {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .tooltip-arrow {
+    fill: white; /* Match the tooltip background color */
+  }
+  

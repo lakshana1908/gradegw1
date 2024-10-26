@@ -4,6 +4,7 @@ import HomePage from './components/HomePage'; // Adjust the path if needed
  // Placeholder for Staff login page
 import './App.css';
 import StaffComponent from './components/StaffComponent.js';
+import StudentComponent from './components/StudentComponent.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/staff" element={<StaffComponent />} />
+        <Route path="/student" element={<StudentComponent />} />
       </Routes>
     </Router>
   );
